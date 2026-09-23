@@ -1,0 +1,435 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Waqas Silk Store</title>
+
+<style>
+*{
+  box-sizing:border-box;
+  margin:0;
+  padding:0;
+}
+
+body{
+  font-family:Arial,sans-serif;
+  background:#fff8f3;
+  color:#333;
+}
+
+header{
+  background:#780d1b;
+  color:white;
+  text-align:center;
+  padding:22px 15px;
+}
+
+.logo{
+  font-size:30px;
+  font-weight:bold;
+  margin-bottom:18px;
+text-shadow:0 2px 8px rgba(255,255,255,0.35);
+}
+nav{
+  display:flex;
+  justify-content:center;
+  gap:30px;
+}
+
+nav a{
+  color:white;
+  text-decoration:none;
+  font-size:18px;
+}
+
+.hero{
+  text-align:center;
+  padding:80px 20px;
+}
+
+.hero h1{
+  color:#780d1b;
+  font-size:48px;
+  margin-bottom:25px;
+}
+
+.hero p{
+  font-size:22px;
+  margin-bottom:35px;
+}
+
+.shop-btn{
+  display:inline-block;
+  background:#780d1b;
+  color:white;
+  text-decoration:none;
+  padding:18px 40px;
+  border-radius:40px;
+  font-size:20px;
+  font-weight:bold;
+}
+
+.products{
+  padding:50px 20px;
+  text-align:center;
+}
+
+.products h2{
+  color:#780d1b;
+  font-size:42px;
+  margin-bottom:40px;
+}
+
+.product-grid{
+  max-width:500px;
+  margin:auto;
+}
+
+.product{
+  background:white;
+  border-radius:25px;
+  overflow:hidden;
+  box-shadow:0 5px 20px #ddd;
+}
+
+.product-img img{
+  width:100%;
+  display:block;
+}
+
+.product-info{
+  padding:25px;
+}
+
+.product-info h3{
+  font-size:28px;
+  margin-bottom:15px;
+}
+
+.price{
+  color:#780d1b;
+  font-size:28px;
+  font-weight:bold;
+  margin-bottom:20px;
+}
+
+.buy-btn{
+  display:inline-block;
+  background:#780d1b;
+  color:white;
+  text-decoration:none;
+  padding:15px 35px;
+  border-radius:30px;
+  font-size:18px;
+  font-weight:bold;
+}.cart-btn{
+  display:inline-block;
+  background:#f5e4dc;
+  color:#780d1b;
+  border:2px solid #780d1b;
+  padding:15px 25px;
+  border-radius:30px;
+  font-size:18px;
+  font-weight:bold;
+  margin-left:8px;
+}
+
+.contact{
+  text-align:center;
+  padding:60px 20px;
+  background:#f5e4dc;
+}
+
+.contact h2{
+  color:#780d1b;
+  font-size:36px;
+  margin-bottom:20px;
+}
+
+.whatsapp{
+  display:inline-block;
+  background:#25D366;
+  color:white;
+  text-decoration:none;
+  padding:16px 30px;
+  border-radius:30px;
+  font-weight:bold;
+  font-size:18px;
+}
+
+footer{
+  background:#780d1b;
+  color:white;
+  text-align:center;
+  padding:25px;
+}
+
+@media(max-width:600px){
+  .hero h1{
+    font-size:38px;
+  }
+
+  .hero p{
+    font-size:20px;
+  }
+
+  .products h2{
+    font-size:34px;
+  }
+}
+.search-box{
+  text-align:center;
+  margin-top:15px;
+}
+
+.search-box input{
+  width:80%;
+  max-width:400px;
+  padding:14px 18px;
+  border:2px solid #780d1b;
+  border-radius:30px;
+  font-size:17px;
+  outline:none;
+  }
+</style>
+</head>
+
+
+<body>
+
+<header>
+  <div class="logo">Waqas Silk Store</div>
+
+  <nav>
+    <a href="#">Home</a>
+    <a href="#products">Sarees</a>
+    <a href="#contact">Contact</a>
+  </nav><div class="search-box">
+  <input id="searchBox" type="text" placeholder="Search Saree...">
+  </div>
+</header>
+
+<section class="hero">
+  <h1>Elegant Sarees</h1>
+  <p>Discover beautiful sarees for every occasion.</p>
+
+  <a href="#products" class="shop-btn">Shop Now</a>
+</section>
+
+<section class="products" id="products">
+  <h2>Our Saree Collection</h2>
+
+  <div class="product-grid">
+
+    <div class="product">
+
+      <div class="product-img">
+        <img src="image/saree1.jpg" alt="Banarasi Silk Saree">
+      </div>
+
+      <div class="product-info">
+        <h3>Banarasi Silk Saree</h3>
+<p>Beautiful Banarasi silk saree with elegant traditional design.</p>
+        <div class="price">₹1,999</div>
+
+        <a
+          class="buy-btn"
+          href="https://wa.me/918957797694"
+          target="_blank">
+          Buy Now
+        </a><button class="cart-btn">🛒 Add to Cart</button>
+
+      </div>
+    </div>
+
+  
+<div class="product">
+  <div class="product-img">
+    <img src="image/saree2.jpg" alt="Designer Saree">
+  </div>
+  <div class="product-info">
+    <h3>Designer Saree</h3>
+    <div class="price">₹2,499</div>
+    <a
+      class="buy-btn"
+      href="https://wa.me/918957797694?text=Hello%20mujhe%20Designer%20Saree%20order%20karni%20hai"
+      target="_blank">
+      Buy Now
+    </a><button class="cart-btn">🛒 Add to Cart</button>
+  </div>
+</div>
+
+<section class="contact" id="contact">
+  <h2>Contact Us</h2>
+
+  <p style="margin-bottom:25px;">
+    Order your favourite saree on WhatsApp.
+  </p>
+
+  <a
+    class="whatsapp"
+    href="https://wa.me/918957797694"
+    target="_blank">
+    WhatsApp Us
+  </a>
+</section>
+
+<footer>
+  © 2026 Waqas Silk Store
+</footer><section class="contact">
+  <h2>🛒 My Cart</h2>
+  <div id="cartItems">Cart is empty</div>
+</section>
+<script>
+let cart = [];
+
+document.querySelectorAll('.cart-btn').forEach(function(button) {
+  button.addEventListener('click', function() {
+
+    const product = this.closest('.product');
+    const name = product.querySelector('h3').innerText;
+    const price = Number(
+      product.querySelector('.price').innerText
+        .replace('₹', '')
+        .replace(/,/g, '')
+        .trim()
+    );
+
+    const existing = cart.find(item => item.name === name);
+
+    if (existing) {
+      existing.qty++;
+    } else {
+      cart.push({ name: name, price: price, qty: 1 });
+    }
+
+    this.innerText = '✓ Added to Cart';
+    this.style.background = '#25D366';
+    this.style.color = 'white';
+
+    setTimeout(() => {
+      this.innerText = '🛒 Add to Cart';
+      this.style.background = '';
+      this.style.color = '';
+    }, 1500);
+
+    showCart();
+  });
+});
+
+function showCart() {
+  const box = document.getElementById('cartItems');
+
+  if (cart.length === 0) {
+    box.innerHTML = '<p>Cart is empty</p>';
+    return;
+  }
+
+  let total = 0;
+  let html = '';
+
+  cart.forEach(function(item, index) {
+    const itemTotal = item.price * item.qty;
+    total += itemTotal;
+
+    html += `
+      <div style="background:white;padding:18px;margin:12px 0;border-radius:18px;box-shadow:0 3px 10px #ddd;">
+        <h3 style="color:#780d1b;">${item.name}</h3>
+        <p>₹${item.price} × ${item.qty}</p>
+
+        <button onclick="minusItem(${index})">−</button>
+        <span style="padding:0 15px;">${item.qty}</span>
+        <button onclick="plusItem(${index})">+</button>
+
+        <button onclick="removeItem(${index})">Remove</button>
+
+        <p><b>Item Total: ₹${itemTotal}</b></p>
+      </div>
+    `;
+  });
+
+  html += `
+    <div style="background:#780d1b;color:white;padding:20px;border-radius:18px;text-align:center;">
+      <h2 style="color:white;">Grand Total: ₹${total}</h2>
+
+      <button onclick="orderOnWhatsApp()"
+        style="margin-top:15px;padding:14px 25px;border:0;border-radius:30px;background:#25D366;color:white;font-size:18px;font-weight:bold;">
+        Order on WhatsApp
+      </button>
+    </div>
+  `;
+
+  box.innerHTML = html;
+}
+
+function plusItem(index) {
+  cart[index].qty++;
+  showCart();
+}
+
+function minusItem(index) {
+  if (cart[index].qty > 1) {
+    cart[index].qty--;
+  } else {
+    cart.splice(index, 1);
+  }
+  showCart();
+}
+
+function removeItem(index) {
+  cart.splice(index, 1);
+  showCart();
+}
+
+function orderOnWhatsApp() {
+  if (cart.length === 0) {
+    alert('Cart empty hai!');
+    return;
+  }
+
+  let message = 'Namaste, mujhe ye saree order karni hai:%0A%0A';
+  let total = 0;
+
+  cart.forEach(function(item) {
+    const itemTotal = item.price * item.qty;
+
+    message += item.name + ' - ₹' + item.price +
+      ' × ' + item.qty + ' = ₹' + itemTotal + '%0A';
+
+    total += itemTotal;
+  });
+
+  message += '%0AGrand Total: ₹' + total;
+
+  window.open(
+    'https://api.whatsapp.com/send?phone=918957797694&text=' + message,
+    '_blank'
+  );
+}
+
+showCart();document.getElementById('searchBox').addEventListener('input', function() {
+  const search = this.value.toLowerCase();
+  document.querySelectorAll('.product').forEach(function(product) {
+    const name = product.querySelector('h3').innerText.toLowerCase();
+    product.style.display = name.includes(search) ? '' : 'none';
+  });
+});
+const searchBox = document.getElementById('searchBox');
+
+searchBox.oninput = function () {
+  const text = this.value.toLowerCase().trim();
+
+  document.querySelectorAll('.product-grid .product').forEach(function (product) {
+    const name = product.querySelector('h3').textContent.toLowerCase();
+
+    if (name.includes(text)) {
+      product.style.display = 'block';
+    } else {
+      product.style.display = 'none';
+    }
+  });
+};
+</script>
+</body>
+  </html>
